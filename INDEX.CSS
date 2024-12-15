@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff; /* Olympikus blue */
+    color: #faf9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #060606;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.projeto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.projeto h3 {
+    color: #007bff; /* Olympikus blue */
+    font-weight: bold;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #007bff;
+}
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+  }
